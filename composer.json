@@ -1,0 +1,14 @@
+{
+    "require": {
+        "slim/slim": "^4.3",
+        "slim/psr7": "^0.6.0",
+        "twbs/bootstrap": "^5.1",
+        "twbs/bootstrap-icons": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {"Epignosis\\Academy\\Security\\": "src/"}
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public/"
+    }
+}
